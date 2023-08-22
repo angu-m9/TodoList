@@ -1,0 +1,19 @@
+{
+  "name": "todolist_api_jsonserver",
+  "version": "1.0.0",
+  "description": "todo_List con js puro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angu-m9/TodoList.git"
+  },
+  "author": "Fernando Angulo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angu-m9/TodoList/issues"
+  },
+  "homepage": "https://github.com/angu-m9/TodoList#readme"
+}
