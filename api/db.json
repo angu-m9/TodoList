@@ -1,0 +1,34 @@
+{
+    "tasks": [
+      {
+        "title": "nueva tarea",
+        "description": "esto ya tira",
+        "progress": "100",
+        "dueDate": "2023-08-25",
+        "priority": "medium",
+        "category": "estudios",
+        "completed": false,
+        "id": 1
+      },
+      {
+        "title": "adfasdfa",
+        "description": "asfasdfasdfasdfasdfasdfasdfasdfasdfa",
+        "progress": "60",
+        "dueDate": "2023-08-27",
+        "priority": "high",
+        "category": "estudios",
+        "completed": false,
+        "id": 2
+      },
+      {
+        "title": "esta será la tarea más vieja",
+        "description": "",
+        "progress": "100",
+        "dueDate": "2023-08-28",
+        "priority": "high",
+        "category": "tareas de casa",
+        "completed": false,
+        "id": 3
+      }
+    ]
+  }

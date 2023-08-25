@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --naranja: #ffa451;
+    --medio-rojo: #dc735d;
+    --amarillo-dorado: #FFC857;
+    --terracota: #D57A66;
+    --melocoton: #FFB396;
+    --verde-oscuro: #295562;
+    --morado: #bdb1df;
+    --azul-cielo: #87AFC7;
+    --azul-oscuro: #263D57;
+    --turquesa: #48B0A3;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 61, 87, 0.9); 
+    z-index: 1;
+}
+
+.modal-content {
+    background-color: #f4f4f4; 
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid var(--azul-oscuro);
+    width: 80%;
+    border-radius: 10px;
+}
+
+.close-button {
+    color: var(--medio-rojo);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover, .close-button:focus {
+    color: var(--terracota);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilo para el título y textarea */
+#modalTaskTitleInput, #descriptionInput {
+    background-color: var(--melocoton); 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; 
+}
+
+/* Estilo para los demás inputs y select */
+input, select {
+    background-color: #ffffff; 
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px; 
+    width: 100%; 
+    border: 1px solid var(--azul-cielo); 
+}
+
+/* Estilo específico para textarea */
+#descriptionInput {
+    background-color: var(--azul-cielo); 
+    color: var(--azul-oscuro); 
+    width: 100%; 
+    resize: vertical; 
+}
+.task-container {
+    align-items: center;
+}
+
+.complete-btn  {
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.options-btn {
+    position: relative;  /* Hace que options-menu se posicione relativo a este elemento */
+    cursor: pointer;
+    margin: 0 10px;
+   
+}
+
+.options-btn i {
+    color: gray;  
+}
+
+.options-menu {
+    position: absolute;  /* Posicionamiento absoluto en relación a options-btn */
+    left: 100%;  /* Esto mueve el menú a la derecha del botón de opciones */
+    top: 0;  /* Alinea el menú con la parte superior del botón de opciones */
+    display: none;  /* Inicialmente escondido */
+    background-color: white;
+    border: 1px solid gray;
+    z-index: 4;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
